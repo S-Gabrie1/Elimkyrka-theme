@@ -14,4 +14,14 @@
   }
   add_action( 'wp_enqueue_scripts', 'enqueue_webpack_scripts' );
 
+  function register_custom_blocks_init() {
+    // Register custom blocks
+
+    register_block_type( __DIR__ . '/blocks/testblock' );
+    
+  }
+  add_action( 'init', 'register_custom_blocks_init' );
+
+  // register_block_type( dirname(__FILE__) . '/block.json' );
+
 ?>

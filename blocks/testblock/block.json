@@ -1,0 +1,15 @@
+{
+    "name": "elimkyrkan/testblock",
+    "title": "Testblock",
+    "category": "text",
+    "icon": "star",
+    "description": "Testblock desription",
+    "keywords": ["test", "testblock"],
+    "version": "1.0.0",
+    "attributes": {},
+    "supports": {
+        "align": true
+    },
+    "styles": [],
+    "render": "file:./render.php"
+}
